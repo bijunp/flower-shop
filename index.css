@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: greenyellow;
+    padding: 10px 20px;
+  }
+  .navbar-brand {
+    font-size: 24px;
+    margin-right: auto;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  .content {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  .content-text {
+    flex: 1;
+    padding-right: 20px;
+  }
+ 
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .about-page,
+  .products-page,
+  .contact-page {
+    padding: 20px;
+  }
+  .box-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  .box {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  .box img {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+
+.testimonial-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .testimonial {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: greenyellow;
+  }
+  input{
+    width: 50%;
+    
+  }
+  
+  
+
+.content-images {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .content-images img {
+    max-width: 200px;
+    margin-right: 25px;
+  }
+
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    align-items: flex-start;
+    margin-top: 30px;
+  }
+  
+  .product-box {
+    flex: 0 0 calc(33.33% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: wheat;
+  }
+  
+  .product-box:last-child {
+    margin-right: 0; 
+  }
+  
+  .product-box img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .product-box h3 {
+    margin: 10px 0;
+  }
+  
+  .product-box p {
+    font-weight: bold;
+  }
+  .about-page{
+    background-color: greenyellow;
+  }
+  .contact-page{
+    background-color: greenyellow;
+  }
+  .bestsellers-page{
+    background-color: greenyellow;
+    
+  }
+  .product-box{
+    border-style:groove;
+    border-color: black;
+    border-radius: 20px;
+
+  }
